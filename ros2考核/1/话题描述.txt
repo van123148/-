@@ -1,0 +1,15 @@
+/camera_info：提供有关相机信息。
+/clicked_point：表示鼠标点击图像上的某个点。
+/detector/result_img：检测器生成的结果图像。
+/goal_pose：目标位姿，表示机器人需要到达的位置和方向。
+/image_raw：原始图像数据，来自相机传感器。
+/initialpose：定义了机器人的起始位置和方向。
+/joint_states：机器人的各个关节状态，包括位置、速度和加速度等信息。
+/offset：可能表示偏移量的值。
+/parameter_events：记录 ROS 2 系统中参数的变更信息。
+/robot_description：描述机器人结构。
+/rosout：ROS 2 的日志输出，记录系统的日志消息。
+/target_point：目标机器人的坐标。
+/tf：提供坐标变换的信息，描述不同坐标系之间的关系。
+/tf_static：提供静态坐标变换的信息，并且在运行过程中不会发生变化。
+/tracker/marker：跟踪器生成的标记信息，可能用于视觉跟踪或物体识别。

@@ -1,0 +1,7 @@
+[01m[K/home/van/rm_ws/src/listener_pkg/src/listener.cpp:[m[K In constructor ‘[01m[KCoordinatesSubscriber::CoordinatesSubscriber()[m[K’:
+[01m[K/home/van/rm_ws/src/listener_pkg/src/listener.cpp:14:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::deque<std_msgs::msg::Float64MultiArray_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kset_capacity[m[K’
+   14 |     queue_.[01;31m[Kset_capacity[m[K(10);
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

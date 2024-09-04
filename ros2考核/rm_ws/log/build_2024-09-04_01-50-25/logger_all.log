@@ -1,0 +1,268 @@
+[0.220s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/van/.local/bin/colcon', 'build'][0m
+[0.220s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7330458d9ab0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7330459ce8c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7330459ce8c0>>, mixin_verb=('build',))[0m
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/van/rm_ws'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extensions ['ros']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cpp_pubsub) by extension 'ros'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'[0m
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extension 'ignore'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extension 'ignore_ament_install'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extensions ['colcon_pkg']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extension 'colcon_pkg'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extensions ['colcon_meta']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extension 'colcon_meta'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extensions ['ros']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/listener_pkg) by extension 'ros'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/listener_pkg' with type 'ros.ament_cmake' and name 'listener_pkg'[0m
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extension 'ignore'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extension 'ignore_ament_install'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extensions ['colcon_pkg']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extension 'colcon_pkg'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extensions ['colcon_meta']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extension 'colcon_meta'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extensions ['ros']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sentry_description) by extension 'ros'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/sentry_description' with type 'ros.ament_cmake' and name 'sentry_description'[0m
+[0.298s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.298s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.298s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.298s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.298s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.317s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.317s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.320s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/van/rm_ws/install[0m
+[0.321s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 21 installed packages in /home/van/dev_ws/install[0m
+[0.323s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 366 installed packages in /opt/ros/humble[0m
+[0.324s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/van/rm_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/van/rm_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/van/rm_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}[0m
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'cmake_args' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'cmake_target' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'listener_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'listener_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/van/rm_ws/build/listener_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/van/rm_ws/install/listener_pkg', 'merge_install': False, 'path': '/home/van/rm_ws/src/listener_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_args' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_target' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'sentry_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/van/rm_ws/build/sentry_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/van/rm_ws/install/sentry_description', 'merge_install': False, 'path': '/home/van/rm_ws/src/sentry_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.385s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.386s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.387s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/van/rm_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.387s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/van/rm_ws/src/cpp_pubsub'
+[0.389s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.395s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/van/rm_ws/src/listener_pkg' with build type 'ament_cmake'
+[0.395s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/van/rm_ws/src/listener_pkg'
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.401s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/van/rm_ws/src/sentry_description' with build type 'ament_cmake'
+[0.401s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/van/rm_ws/src/sentry_description'
+[0.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.413s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/van/rm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/cpp_pubsub -- -j32 -l32[0m
+[0.422s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/van/rm_ws/build/listener_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/listener_pkg -- -j32 -l32[0m
+[0.428s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/van/rm_ws/build/sentry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/sentry_description -- -j32 -l32[0m
+[0.474s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/van/rm_ws/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/sentry_description -- -j32 -l32[0m
+[0.525s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/van/rm_ws/build/sentry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/van/rm_ws/build/sentry_description[0m
+[0.526s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/van/rm_ws/build/listener_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/listener_pkg -- -j32 -l32[0m
+[0.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sentry_description)
+[0.535s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/van/rm_ws/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/van/rm_ws/build/sentry_description[0m
+[0.538s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description' for CMake module files
+[0.538s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description' for CMake config files
+[0.538s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sentry_description', 'cmake_prefix_path')
+[0.539s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.ps1'
+[0.539s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/van/rm_ws/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.dsv'
+[0.539s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.sh'
+[0.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/bin'
+[0.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/lib/pkgconfig/sentry_description.pc'
+[0.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/lib/python3.10/site-packages'
+[0.542s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/bin'
+[0.543s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.ps1'
+[0.545s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.dsv'
+[0.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.sh'
+[0.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.bash'
+[0.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.zsh'
+[0.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/van/rm_ws/install/sentry_description/share/colcon-core/packages/sentry_description)
+[0.574s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/van/rm_ws/build/listener_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/van/rm_ws/build/listener_pkg[0m
+[0.591s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sentry_description)
+[0.591s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description' for CMake module files
+[0.592s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description' for CMake config files
+[0.592s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sentry_description', 'cmake_prefix_path')
+[0.592s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.ps1'
+[0.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/van/rm_ws/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.dsv'
+[0.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.sh'
+[0.594s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/bin'
+[0.594s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/lib/pkgconfig/sentry_description.pc'
+[0.594s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/lib/python3.10/site-packages'
+[0.594s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/sentry_description/bin'
+[0.595s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.ps1'
+[0.595s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.dsv'
+[0.596s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.sh'
+[0.596s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.bash'
+[0.596s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/sentry_description/share/sentry_description/package.zsh'
+[0.596s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/van/rm_ws/install/sentry_description/share/colcon-core/packages/sentry_description)
+[0.597s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(listener_pkg)
+[0.597s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg' for CMake module files
+[0.598s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/van/rm_ws/build/listener_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/van/rm_ws/build/listener_pkg[0m
+[0.598s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg' for CMake config files
+[0.598s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('listener_pkg', 'cmake_prefix_path')
+[0.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/hook/cmake_prefix_path.ps1'
+[0.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/hook/cmake_prefix_path.dsv'
+[0.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/hook/cmake_prefix_path.sh'
+[0.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/lib'
+[0.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/bin'
+[0.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/lib/pkgconfig/listener_pkg.pc'
+[0.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/lib/python3.10/site-packages'
+[0.600s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/bin'
+[0.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.ps1'
+[0.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.dsv'
+[0.602s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.sh'
+[0.602s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.bash'
+[0.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.zsh'
+[0.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/van/rm_ws/install/listener_pkg/share/colcon-core/packages/listener_pkg)
+[0.642s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(listener_pkg)
+[0.643s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg' for CMake module files
+[0.643s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg' for CMake config files
+[0.643s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('listener_pkg', 'cmake_prefix_path')
+[0.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/hook/cmake_prefix_path.ps1'
+[0.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/hook/cmake_prefix_path.dsv'
+[0.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/hook/cmake_prefix_path.sh'
+[0.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/lib'
+[0.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/bin'
+[0.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/lib/pkgconfig/listener_pkg.pc'
+[0.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/lib/python3.10/site-packages'
+[0.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/listener_pkg/bin'
+[0.646s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.ps1'
+[0.646s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.dsv'
+[0.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.sh'
+[0.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.bash'
+[0.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.zsh'
+[0.648s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/van/rm_ws/install/listener_pkg/share/colcon-core/packages/listener_pkg)
+[12.550s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/van/rm_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/cpp_pubsub -- -j32 -l32[0m
+[12.601s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/van/rm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/van/rm_ws/build/cpp_pubsub[0m
+[12.621s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cpp_pubsub)
+[12.621s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub' for CMake module files
+[12.621s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/van/rm_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/van/rm_ws/build/cpp_pubsub[0m
+[12.622s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub' for CMake config files
+[12.622s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[12.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[12.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[12.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[12.623s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/lib'
+[12.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/bin'
+[12.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[12.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[12.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/bin'
+[12.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[12.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[12.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[12.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[12.626s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[12.626s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/van/rm_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[12.668s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cpp_pubsub)
+[12.668s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub' for CMake module files
+[12.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub' for CMake config files
+[12.669s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[12.669s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[12.669s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[12.670s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[12.670s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/lib'
+[12.670s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/bin'
+[12.670s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[12.671s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[12.671s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/van/rm_ws/install/cpp_pubsub/bin'
+[12.671s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[12.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[12.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[12.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[12.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/van/rm_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[12.673s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/van/rm_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[12.673s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[12.673s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[12.674s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[12.674s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[12.679s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.679s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.679s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[12.692s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[12.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/van/rm_ws/install/local_setup.ps1'
+[12.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/van/rm_ws/install/_local_setup_util_ps1.py'
+[12.696s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/van/rm_ws/install/setup.ps1'
+[12.698s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/van/rm_ws/install/local_setup.sh'
+[12.698s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/van/rm_ws/install/_local_setup_util_sh.py'
+[12.699s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/van/rm_ws/install/setup.sh'
+[12.701s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/van/rm_ws/install/local_setup.bash'
+[12.701s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/van/rm_ws/install/setup.bash'
+[12.703s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/van/rm_ws/install/local_setup.zsh'
+[12.703s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/van/rm_ws/install/setup.zsh'

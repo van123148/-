@@ -1,0 +1,11 @@
+[01m[K/home/van/rm_ws/src/cpp_pubsub/src/fps.cpp:49:14:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   49 |     imwriter([01;35m[K'a.jpg'[m[K,img);
+      |              [01;35m[K^~~~~~~[m[K
+[01m[K/home/van/rm_ws/src/cpp_pubsub/src/fps.cpp:[m[K In member function ‘[01m[Kvoid ArmorDetectorNode::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/van/rm_ws/src/cpp_pubsub/src/fps.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimwriter[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+   49 |     [01;31m[Kimwriter[m[K('a.jpg',img);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kwrite[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/fps.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,14 @@
+[0.019s] Invoking command in '/home/van/rm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/rm_ws/install/sentry_description:/home/van/rm_ws/install/listener_pkg:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/cpp_pubsub -- -j32 -l32
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/fps.cpp.o[0m
+[0.521s] [01m[K/home/van/rm_ws/src/cpp_pubsub/src/fps.cpp:49:14:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.521s]    49 |     imwriter([01;35m[K'a.jpg'[m[K,img);
+[0.521s]       |              [01;35m[K^~~~~~~[m[K
+[3.262s] [01m[K/home/van/rm_ws/src/cpp_pubsub/src/fps.cpp:[m[K In member function ‘[01m[Kvoid ArmorDetectorNode::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[3.262s] [01m[K/home/van/rm_ws/src/cpp_pubsub/src/fps.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimwriter[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+[3.262s]    49 |     [01;31m[Kimwriter[m[K('a.jpg',img);
+[3.262s]       |     [01;31m[K^~~~~~~~[m[K
+[3.262s]       |     [32m[Kwrite[m[K
+[5.621s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/fps.cpp.o] 错误 1
+[5.621s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/listener.dir/all] 错误 2
+[5.621s] gmake: *** [Makefile:146：all] 错误 2
+[5.623s] Invoked command in '/home/van/rm_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/rm_ws/install/sentry_description:/home/van/rm_ws/install/listener_pkg:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/cpp_pubsub -- -j32 -l32

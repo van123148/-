@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/van/rm_ws/install/listener_pkg/lib/listener_pkg/listener
+-- Set runtime path of "/home/van/rm_ws/install/listener_pkg/lib/listener_pkg/listener" to ""
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/ament_index/resource_index/package_run_dependencies/listener_pkg
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/ament_index/resource_index/parent_prefix_path/listener_pkg
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/environment/path.sh
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/environment/path.dsv
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/local_setup.bash
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/local_setup.sh
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/local_setup.zsh
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/local_setup.dsv
+-- Installing: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.dsv
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/ament_index/resource_index/packages/listener_pkg
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/cmake/listener_pkgConfig.cmake
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/cmake/listener_pkgConfig-version.cmake
+-- Up-to-date: /home/van/rm_ws/install/listener_pkg/share/listener_pkg/package.xml

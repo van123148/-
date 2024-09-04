@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/home/van/rm_ws/build/listener_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/van/rm_ws/src/listener_pkg -DCMAKE_INSTALL_PREFIX=/home/van/rm_ws/install/listener_pkg
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.309s] -- Found OpenCV: /usr/local (found version "4.5.3") 
+[0.314s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.536s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.623s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.672s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.677s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.686s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.698s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.757s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.761s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.849s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.876s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.932s] -- Looking for pthread.h
+[1.006s] -- Looking for pthread.h - found
+[1.006s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.077s] -- Found Threads: TRUE  
+[1.137s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.159s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[1.183s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.231s] -- Configuring done
+[1.235s] -- Generating done
+[1.235s] -- Build files have been written to: /home/van/rm_ws/build/listener_pkg
+[1.241s] Invoked command in '/home/van/rm_ws/build/listener_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/van/rm_ws/src/listener_pkg -DCMAKE_INSTALL_PREFIX=/home/van/rm_ws/install/listener_pkg
+[1.241s] Invoking command in '/home/van/rm_ws/build/listener_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/listener_pkg -- -j32 -l32
+[1.295s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[2.682s] [01m[K/home/van/rm_ws/src/listener_pkg/src/listener.cpp:[m[K In constructor ‘[01m[KCoordinatesSubscriber::CoordinatesSubscriber()[m[K’:
+[2.682s] [01m[K/home/van/rm_ws/src/listener_pkg/src/listener.cpp:14:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::deque<std_msgs::msg::Float64MultiArray_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kset_capacity[m[K’
+[2.682s]    14 |     queue_.[01;31m[Kset_capacity[m[K(10);
+[2.682s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[3.904s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76：CMakeFiles/listener.dir/src/listener.cpp.o] 错误 1
+[3.904s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/listener.dir/all] 错误 2
+[3.904s] gmake: *** [Makefile:146：all] 错误 2
+[3.906s] Invoked command in '/home/van/rm_ws/build/listener_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/van/dev_ws/install/learning_urdf:/home/van/dev_ws/install/learning_topic:/home/van/dev_ws/install/learning_tf:/home/van/dev_ws/install/learning_service:/home/van/dev_ws/install/learning_qos:/home/van/dev_ws/install/learning_pkg_python:/home/van/dev_ws/install/learning_parameter:/home/van/dev_ws/install/learning_node:/home/van/dev_ws/install/learning_launch:/home/van/dev_ws/install/learning_action:/home/van/dev_ws/install/learning_gazebo_fortress:/home/van/dev_ws/install/learning_gazebo:/home/van/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/van/rm_ws/build/listener_pkg -- -j32 -l32

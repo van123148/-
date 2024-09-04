@@ -1,0 +1,15 @@
+/home/van/rm_ws/install/my_node_package/share/ament_index/resource_index/package_run_dependencies/my_node_package
+/home/van/rm_ws/install/my_node_package/share/ament_index/resource_index/parent_prefix_path/my_node_package
+/home/van/rm_ws/install/my_node_package/share/my_node_package/environment/ament_prefix_path.sh
+/home/van/rm_ws/install/my_node_package/share/my_node_package/environment/ament_prefix_path.dsv
+/home/van/rm_ws/install/my_node_package/share/my_node_package/environment/path.sh
+/home/van/rm_ws/install/my_node_package/share/my_node_package/environment/path.dsv
+/home/van/rm_ws/install/my_node_package/share/my_node_package/local_setup.bash
+/home/van/rm_ws/install/my_node_package/share/my_node_package/local_setup.sh
+/home/van/rm_ws/install/my_node_package/share/my_node_package/local_setup.zsh
+/home/van/rm_ws/install/my_node_package/share/my_node_package/local_setup.dsv
+/home/van/rm_ws/install/my_node_package/share/my_node_package/package.dsv
+/home/van/rm_ws/install/my_node_package/share/ament_index/resource_index/packages/my_node_package
+/home/van/rm_ws/install/my_node_package/share/my_node_package/cmake/my_node_packageConfig.cmake
+/home/van/rm_ws/install/my_node_package/share/my_node_package/cmake/my_node_packageConfig-version.cmake
+/home/van/rm_ws/install/my_node_package/share/my_node_package/package.xml
